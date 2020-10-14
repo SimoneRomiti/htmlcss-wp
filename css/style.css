@@ -13,6 +13,7 @@ body{
   margin: auto;
 }
 
+/* header */
 header{
   width: 100%;
 }
@@ -60,7 +61,9 @@ nav ul > li{
   margin: 0 15px;
   color: white;
 }
+/* /header */
 
+/* main */
 main{
   margin: 10px 0 20px;
   color: black;
@@ -137,10 +140,15 @@ aside.right h2{
   margin-bottom: 20px;
 }
 
+aside.left, section, aside.right > .box{
+  border-radius: 2%;
+}
+/* /main */
+
 footer{
   height: 16vh;
   width: 100%;
-  background: #6C629C;
+  background: white;
   /* border: 1px solid black; */
   color: rgba(0, 0, 0, 0.4);
 }
