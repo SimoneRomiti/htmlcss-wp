@@ -85,6 +85,7 @@ aside.left, aside.right{
 aside.left{
   padding: 5px;
   position: relative;
+  color: green;
 }
 
 aside.left > i{
@@ -96,6 +97,8 @@ aside.left > i{
 
 aside.left > h2{
   font-size: 20px;
+  text-shadow: 1px 1px black;
+  color: rgba(0, 0, 0, 0.4);
   margin: 0 0 10px 25px;
 }
 
@@ -120,11 +123,18 @@ main aside.left, section{
 aside.right > .box{
   width: 100%;
   background: white;
-  padding: 5px;
+  padding: 20px;
 }
 
 aside.right .box.middle{
   margin: 20px 0;
+}
+
+aside.right h2{
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
 }
 
 footer{
