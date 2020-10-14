@@ -6,6 +6,7 @@
 
 body{
   background-image: url('../img/legno.png');
+  padding: 10px 0;
 }
 
 .container{
@@ -48,7 +49,7 @@ header .title{
 
 header nav{
   width: 100%;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   background: #504741;
   text-align: center;
 }
@@ -59,7 +60,18 @@ nav ul > li{
   font-size: 12px;
   display: inline-block;
   margin: 0 15px;
+}
+
+nav > ul > li > a{
+  display: inline-block;
+  height: 6vh;
+  line-height: 6vh;
+  text-decoration: none;
   color: white;
+}
+
+nav > ul > li > a:hover{
+  background: #2D3943;
 }
 /* /header */
 
@@ -149,7 +161,7 @@ footer{
   height: 16vh;
   width: 100%;
   background: white;
-  /* border: 1px solid black; */
+  border-radius: 2%;
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -176,4 +188,20 @@ footer > .icons{
   float: left;
   text-align: center;
   font-size: 50px;
+}
+
+.social i{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.facebook i:hover{
+  color: blue;
+}
+
+.instagram i:hover{
+  color: darkorange;
+}
+
+.github i:hover{
+  color: green;
 }
