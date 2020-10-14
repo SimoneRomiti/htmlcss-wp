@@ -47,7 +47,7 @@ header .title{
 
 header nav{
   width: 100%;
-  padding: 10px 5px;
+  padding: 10px 0;
   background: #504741;
   text-align: center;
 }
@@ -62,9 +62,8 @@ nav ul > li{
 }
 
 main{
-  margin: 20px 0;
-  background: #8F8B93;
-  color: white;
+  margin: 10px 0 20px;
+  color: black;
   /* border: 1px solid black; */
 }
 
@@ -74,28 +73,54 @@ main::after{
   display: table;
 }
 
-.float-left{
+main .float{
   float: left;
 }
 
-main aside.left{
+aside.left, aside.right{
   width: 20%;
-  background: #32624F;
+  font-size: 12px;
+}
+
+aside.left{
+  padding: 5px;
+  position: relative;
+}
+
+aside.left > i{
+  color: orange;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+}
+
+aside.left > h2{
+  font-size: 20px;
+  margin: 0 0 10px 25px;
 }
 
 section{
-  width: 56%;
-  background: #211C25;
-  margin: 0 2%;
+  width: 50%;
+  margin: 0 5%;
+  padding: 20px;
+  font-size: 12px;
 }
 
-main aside.right{
-  width: 20%;
+section > h2{
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
 }
 
-aside.right .box{
+main aside.left, section{
+  background: white;
+}
+
+aside.right > .box{
   width: 100%;
-  background: #32624F;
+  background: white;
+  padding: 5px;
 }
 
 aside.right .box.middle{
