@@ -54,17 +54,17 @@ header nav{
   font-size: 0;
 }
 
-nav ul > li{
+nav ul#menù > li{
   list-style: none;
   text-transform: uppercase;
   display: inline-block;
-  border-right: 1px solid grey;
+  border-right: 1px solid #333333;
 }
-nav ul > li:last-child{
+nav ul#menù > li:last-child{
   border-right: 0;
 }
 
-nav > ul > li > a{
+nav > ul#menù > li > a{
   display: inline-block;
   height: 6vh;
   line-height: 6vh;
@@ -75,7 +75,7 @@ nav > ul > li > a{
 }
 
 
-nav > ul > li > a:hover{
+nav > ul#menù > li > a:hover{
   background: #2D3943;
 }
 /* /header */
